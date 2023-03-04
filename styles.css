@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 550px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 18px;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+}
+
+.logo {
+    width: 84px;
+    height: 42px;
+}
+
+.dog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.profile-image {
+    position: relative;
+    width: 534px;
+    height: 751px;
+    background-image: url("./images/dog-rex.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+}
+
+
+.profile-details, .profile-bio {
+    margin: 0;
+}
+.profile-details {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+.profile-bio {
+    font-size: 24px;
+    font-weight: 400;
+    color: #B7B7B7;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 92px;
+    height: 92px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reject:hover {
+    background-color: #FFE7EF;
+}
+
+.accept:hover {
+    background-color: #DBFFF4;
+}
+
+.badge {
+    position: absolute;
+    width: 233.91px;
+    height: 116.26px;
+    left: 14px;
+    top: 50px;
+    transform: rotate(-30deg);
+}
