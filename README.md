@@ -1,1 +1,1 @@
-App for matching with cute cats: CATch (based on Match.com and Tinder)
+App for matching with cute dogs: TinDog.
